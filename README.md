@@ -12,6 +12,7 @@ on to the right repository.
 
 - **A bug or an install problem:** [open an issue](https://github.com/jusii/amigaux/issues/new/choose).
 - **A question or an idea:** start a [discussion](https://github.com/jusii/amigaux/discussions).
+- **A machine or card we don't cover yet:** see [Asking for hardware support](#asking-for-hardware-support).
 
 If you already know where the fault lives, open the issue or pull request in that component's
 repository (see below).
@@ -24,6 +25,18 @@ A good bug report has:
   (for example `amigaux-1.0-k1-card.zip`)
 - what you did, what you expected, and what happened
 - a capture of the console or serial output
+
+## Asking for hardware support
+
+Release 1.0 runs on the machines listed on [amigaux.org/hardware](https://amigaux.org/hardware/): an
+A3000, A4000 or A4000T with a Z3660 accelerator, and, so far tested only in an emulator, an A3000 or an
+A4000 with a full 68030 card. Release 1.1 is planned to add, among other things, installing onto an
+IDE disk in an A4000 with a Z3660, the A4000T's own SCSI and the Z3660's 68030 mode. Anything else,
+such as another accelerator, another Amiga model or another disk controller, is a new target.
+
+To ask about yours, [open a hardware support request](https://github.com/jusii/amigaux/issues/new?template=hardware_support.md)
+and tell us the hardware. We check whether it is already covered, whether an emulator can model it, and
+what a driver would take, and answer on the issue.
 
 ## Where things live
 
